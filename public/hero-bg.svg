@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0e1526" />
+      <stop offset="0.7" stop-color="#0b1220" />
+      <stop offset="1" stop-color="#09101b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bgGrad)"/>
+  <ellipse cx="1050" cy="120" rx="320" ry="90" fill="#0B5FFF" fill-opacity="0.07"/>
+  <ellipse cx="250" cy="480" rx="220" ry="65" fill="#7CFF6A" fill-opacity="0.05"/>
+  <ellipse cx="900" cy="350" rx="140" ry="32" fill="#0B5FFF" fill-opacity="0.04"/>
+</svg>
