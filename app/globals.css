@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  scroll-behavior: smooth;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: linear-gradient(135deg, #0e1526 0%, #0b1220 60%, #09101b 100%);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #161d2f;
+}
+::-webkit-scrollbar-thumb {
+  background: #222b40;
+  border-radius: 4px;
+}
+
+.glass-card {
+  background: rgba(16, 25, 43, 0.78);
+  box-shadow: 0 12px 40px 0 rgba(11, 95, 255, 0.18), 0 2px 15px 0 rgba(124, 255, 106, 0.08);
+  backdrop-filter: blur(18px) saturate(160%);
+  border: 1.5px solid rgba(11, 95, 255, 0.10);
+}
